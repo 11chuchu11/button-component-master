@@ -1,0 +1,66 @@
+.listButtons{
+    width: 100%;
+    padding: 53px 0 0 83px;
+}
+
+.titleButtons{
+    color:#4F4F4F;
+    font-weight: 500;
+    font-style: normal;
+    margin-bottom: 28px;
+}
+
+.containerAllButtons{
+    height: 100%;
+    display: grid;
+    grid-template-columns: 200px 200px 1fr;
+    grid-auto-rows: 100px;
+}
+#defaultNormalBT,#defaultNormalBTHover{
+    grid-row: 1;
+}
+#primaryOutlineBT,#primaryOutlineBTHover{
+    grid-row: 2;
+}
+#primaryTextBT,#primaryTextBTHover{
+    grid-row: 3;
+}
+#primaryNormalBTDisableShadow{
+    grid-column: 1 / span 2;
+    grid-row: 4;
+}
+#normalBTDisabled, #textBTDisabled{
+    grid-row: 5;
+}
+#containerIconsBT{
+    grid-column: 1 / span 3;
+    grid-row: 6;
+    display: grid;
+    grid-template-columns: max-content max-content;
+    grid-gap: 80px;
+}
+#containerSizesBT{
+    grid-column: 1 / span 3;
+    grid-row: 7;
+    display: grid;
+    grid-template-columns: max-content max-content max-content;
+    grid-gap: 80px;
+}
+#containerColorsBT{
+    grid-column: 1 / span 3;
+    display: grid;
+    grid-auto-rows: 40px;
+    grid-template-columns: max-content max-content max-content max-content;
+    grid-gap: 45px 80px;
+}
+
+
+.labelButton{
+    color: #333333;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.labelButtonHover{
+    color: #828282;
+}

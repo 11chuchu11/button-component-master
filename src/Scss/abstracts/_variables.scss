@@ -1,0 +1,38 @@
+//Configurations
+$border: 1px solid;
+$shadow: 0px 2px 3px;
+
+
+
+//Fonts Colors
+$colorDefault: #3F3F3F;
+$colorGeneral: #FFF;
+
+
+//Background Colors
+$backgroundDefault: #E0E0E0;
+$backgroundDefaultHover:#AEAEAE;
+$backgroundPrimary: #2962FF;
+$backgroundPrimaryHover:#0039CB;
+$backgroundSecondary: #455A64;
+$backgroundSecondaryHover: #1C313A;
+$backgroundDanger: #D32F2F;
+$backgroundDangerHover: #9A0007;
+
+
+//Border Colors
+$borderDefault: $border $colorDefault;
+$borderDefaultHover: $border $backgroundDefaultHover; 
+$borderPrimary: $border $backgroundPrimary;
+$borderPrimaryHover: $border $backgroundPrimaryHover;
+$borderSecondary: $border $backgroundSecondary;
+$borderSecondaryHover: $border $backgroundSecondaryHover;
+$borderDanger: $border $backgroundDanger;
+$borderDangerHover: $border $backgroundDangerHover;
+
+
+//Shadows Colors
+$shadowDefault: $shadow #33333333;
+$shadowPrimary: $shadow #2962ff33;
+$shadowSecondary: $shadow #455a6433;
+$shadowDanger: $shadow #d32f2f33;

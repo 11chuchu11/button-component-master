@@ -1,0 +1,190 @@
+@import './../../../Scss/abstracts/variables';
+
+.button{
+    border-radius: 6px;
+    color: $colorGeneral;
+    cursor: pointer;
+    display: flex;
+    font-size: 14px;
+    margin-top: 12px;
+}
+
+
+.button:disabled,.button:disabled:hover, .button:disabled:focus{
+    color:  #9E9E9E;
+    background-color: $backgroundDefault;
+    box-shadow: $shadowDefault;
+    border: none;
+}
+
+.material-icons{
+    font-size: 20px !important;
+    margin: 0 5px;
+}
+
+
+.colorDefault{
+    background-color: $backgroundDefault;
+    color: $colorDefault;
+    box-shadow: $shadowDefault;
+    
+    &:hover, &:focus{
+        background-color: $backgroundDefaultHover;
+        box-shadow: $shadowDefault;
+    }
+}
+
+.exampleDefaultHover{
+    color: $colorDefault;
+    background-color: $backgroundDefaultHover;
+    box-shadow: $shadowDefault;
+}
+
+.colorDefaultOutlinedText{
+    border: $borderDefault;
+    color: $colorDefault;
+    &:hover, &:focus{
+        background-color:  #3F3F3F1a;
+    }
+}
+
+.exampleDefaultOutlinedTextHover{
+    border: $borderDefault;
+    color: $colorDefault;
+    background-color:  #3F3F3F1a !important;
+}
+
+
+.colorPrimary{
+    background-color: $backgroundPrimary;
+    box-shadow: $shadowPrimary; 
+    
+    &:hover, &:focus{
+        background-color:$backgroundPrimaryHover;
+        box-shadow: $shadowPrimary; 
+    }
+}
+
+.examplePrimaryHover{
+    background-color:$backgroundPrimaryHover;
+    box-shadow: $shadowPrimary; 
+}
+
+.colorPrimaryOutlinedText{
+    border: $borderPrimary;
+    color: $backgroundPrimary;
+    
+    &:hover, &:focus{
+        background-color:  #2962FF1a;
+    }
+}
+.examplePrimaryOutlinedTextHover{
+    border: $borderPrimary;
+    color: $backgroundPrimary;
+    background-color:  #2962FF1a !important;
+}
+
+
+
+.colorSecondary{
+    background-color: $backgroundSecondary;
+    box-shadow: $shadowSecondary;
+    
+    &:hover, &:focus{
+        background-color: $backgroundSecondaryHover;
+        box-shadow: $shadowSecondary;
+    }
+}
+.exampleSecondaryHover{
+        background-color: $backgroundSecondaryHover;
+        box-shadow: $shadowSecondary;
+}
+
+.colorSecondaryOutlinedText{
+    border: $borderSecondary;
+    color: $backgroundSecondary;
+    
+    &:hover,&:focus{
+        background-color: #455A641a;
+    }
+}
+.exampleSecondaryOutlinedTextHover{
+    border: $borderSecondary;
+    color: $backgroundSecondary;
+    background-color: #455A641a !important;
+}
+
+
+.colorDanger{
+    background-color: $backgroundDanger;
+    box-shadow: $shadowDanger;
+
+    &:hover, &:focus{
+        background-color: $backgroundDangerHover;
+        box-shadow: $shadowDanger;
+    }
+}
+
+.exampleDangerHover{
+    background-color: $backgroundDangerHover;
+    box-shadow: $shadowDanger;
+}
+
+.colorDangerOutlinedText{
+    border: $borderDanger;
+    color: $backgroundDanger;
+    
+    &:hover, &:focus{
+        background-color: #D32F2F1a;
+    }
+}
+.exampleDangerOutlinedTextHover{
+    border: $borderDanger;
+    color: $backgroundDanger;
+    background-color: #D32F2F1a !important;
+}
+
+
+.sizeSmall{
+    padding: 6px 12px;
+}
+.sizeMedium{
+    padding: 8px 16px;
+}
+.sizeLarge{
+    padding: 11px 22px;
+}
+
+
+
+
+
+
+
+.buttonDisabledShadow{
+    box-shadow: none;
+}
+
+.buttonNormal{
+    border: none;
+    
+}
+
+.buttonText{
+    border: none;
+    box-shadow: none;
+    background-color: #FFF;
+    &:hover, &:focus{
+        box-shadow: none;
+        border: none;
+    } 
+    &:disabled, &:disabled:hover, &:disabled:focus {
+        background-color: #fff;
+        box-shadow: none;
+    }
+}
+
+
+.buttonOutlined{
+    background-color: #FFF;
+}
