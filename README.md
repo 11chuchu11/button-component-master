@@ -1,4 +1,5 @@
 <!-- Please update value in the {}  -->
+[![Deployment Pipeline](https://github.com/11chuchu11/button-component-master/actions/workflows/pipeline.yml/badge.svg)](https://github.com/11chuchu11/button-component-master/actions/workflows/pipeline.yml)
 
 <h1 align="center">{Your project name}</h1>
 
