@@ -11,3 +11,7 @@ jobs:
     steps:
       - name: Echo the message
         run: echo "Hola Mundo"
+      - name: show date
+        run: date
+      - name: list documents
+        run: ls
